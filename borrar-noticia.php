@@ -13,5 +13,5 @@ if(isset($_GET["id"]) ){
 	$db->query("DELETE FROM noticias WHERE id_noticia=$id");
 }
 
-$_SESSION["error"] = "Función no implementada";
 header("Location: welcome.php");
+?>
